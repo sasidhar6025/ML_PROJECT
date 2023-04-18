@@ -24,7 +24,7 @@ class CustomException(Exception):
 #     try:
 #         a=1/0
 #     except Exception as ex:
-#         logging.info("logging Started")
+#         logging.info("Divided by zero error")
 
 #         raise CustomException(ex,sys)
     
